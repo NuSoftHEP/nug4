@@ -21,7 +21,7 @@ art_make_library( LIBRARIES PRIVATE
                         Geant4::G4materials
                         Geant4::G4modeling
                         Geant4::G4particles
-                        Geant4::G4persistency
+                        Geant4::G4gdml
                         Geant4::G4physicslists
                         Geant4::G4processes
                         Geant4::G4readout
@@ -29,6 +29,7 @@ art_make_library( LIBRARIES PRIVATE
                         Geant4::G4tracking
                         Geant4::G4visHepRep
                         Geant4::G4vis_management
+                        Geant4::G4ToolsSG
                         XercesC::XercesC
                         CLHEP::CLHEP
                         )
