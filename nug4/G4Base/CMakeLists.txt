@@ -27,7 +27,6 @@ art_make_library( LIBRARIES PRIVATE
                         Geant4::G4readout
                         Geant4::G4run
                         Geant4::G4tracking
-                        Geant4::G4visHepRep
                         Geant4::G4vis_management
                         Geant4::G4ToolsSG
                         XercesC::XercesC
