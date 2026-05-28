@@ -8,8 +8,8 @@
 
 
 // trigger registration of shorthands
-// for now be very verbose (2) ... so we know things have happened
-const bool AddG4PhysicsShorthandsRegistered = RegisterAddG4PhysicsShorthands(2);
+// for now be don't be verbose
+const bool AddG4PhysicsShorthandsRegistered = RegisterAddG4PhysicsShorthands(0);
 
 
 void PrintAvailablePhysicsLists(G4int verbosity) {
@@ -37,6 +37,7 @@ bool RegisterAddG4PhysicsShorthands(int verbose) {
 
   G4PhysListRegistry* plReg = G4PhysListRegistry::Instance();
 
+  G4cout << "add extensions PY8TAUDK and PY8CHARMDK" << G4endl;
   plReg->AddPhysicsExtension("PY8TAUDK","Py8TauDecayerPhysics");
   plReg->AddPhysicsExtension("PY8CHARMDK","Py8CharmDecayerPhysics");
 
