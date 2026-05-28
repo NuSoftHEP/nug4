@@ -8,7 +8,7 @@
 
 
 // trigger registration of shorthands
-// for now be don't be verbose
+// for now don't be verbose
 const bool AddG4PhysicsShorthandsRegistered = RegisterAddG4PhysicsShorthands(0);
 
 
