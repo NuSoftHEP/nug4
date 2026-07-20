@@ -250,7 +250,7 @@ libdir	fq_dir		lib
 ####################################
 product         version        qual	flags		<table_format=2>
 art_root_io     v1_13_06       -
-geant4          v4_11_4_p01a   -
+geant4          v4_11_4_p02   -
 nusimdata       v1_29_03       -
 pythia8         v8_3_15        -
 cetmodules      v3_27_04       -	only_for_build
