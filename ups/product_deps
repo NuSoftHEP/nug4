@@ -87,7 +87,7 @@
 #>  define_pythonpath
 ####################################
 parent		nug4
-defaultqual	e26
+defaultqual	e28
 ####################################
 
 ####################################
@@ -249,9 +249,9 @@ libdir	fq_dir		lib
 #
 ####################################
 product		version		qual	flags		<table_format=2>
-art_root_io	v1_13_06	-
-geant4		v4_11_2_p02	-
-nusimdata	v1_29_03	-
+art_root_io	v1_14_02	-
+geant4		v4_11_2_p02a	-
+nusimdata	v1_30_00	-
 pythia8		v8_3_15		-
 cetmodules	v3_27_04	-	only_for_build
 end_product_list
@@ -309,10 +309,6 @@ end_product_list
 #
 ####################################
 qualifier	nusimdata	art_root_io	geant4		pythia8
-c14:debug	c14:debug	c14:debug	c14:debug	c14:p3915:debug
-c14:prof	c14:prof	c14:prof	c14:prof	c14:p3915:prof
-e26:debug	e26:debug	e26:debug	e26:debug	e26:p3915:debug
-e26:prof	e26:prof	e26:prof	e26:prof	e26:p3915:prof
 e28:debug	e28:debug	e28:debug	e28:debug	e28:p3915:debug
 e28:prof	e28:prof	e28:prof	e28:prof	e28:p3915:prof
 end_qualifier_list
